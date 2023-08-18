@@ -65,12 +65,12 @@ export class SidebarMenuComponent extends AppComponentBase implements OnInit {
                   'fas fa-users',
                   'Pages.Users'
               ),
-              new MenuItem(
+              	new MenuItem(
                   this.l('Customers'),
                   '/app/users',
                   'fa-solid fa-user-group',
                   'Pages.Users'
-           ),
+           		),
                new MenuItem(
                   this.l('Vendors'),
                   '/app/users',
